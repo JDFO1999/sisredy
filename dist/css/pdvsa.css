@@ -1,0 +1,41 @@
+.img_200{
+    width: 60px;
+}
+
+.img_ministerio{
+    width: 250px;
+}
+
+.img_galbaWeb{
+    width: 200px;
+}
+
+.bg_fondo_azul{
+    background-color: #003889;
+}
+
+.bg_fondo_gris{
+    background-color: #d4d4d4;
+}
+
+.bg_fondo_azul2{
+    background-color: #253e6f;
+}
+
+.fondo_galba{
+    background-image: url(../imagenes/fondo_gris.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.card{
+    box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);
+    margin-bottom: 1rem;
+}
+
+@media (min-width: 1200px) {
+  .col-xl-2 {
+    flex: 0 0 auto;
+    width: 16.27%;
+  }
+}
